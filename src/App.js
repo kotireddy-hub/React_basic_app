@@ -1,15 +1,17 @@
 import './App.css';
-import Header from './header';
-import Button from './Button';
-import ParentComponent from './ParentComponent';
+// import Header from './header';
+// import Button from './Button';
+// import ParentComponent from './ParentComponent';
+import GreetingMessage from '../src/Jsx/GreentingMessage';
 
 function App() {
   return (
     <div className="App">
-      <Header />
+      {/* <Header />
       <ParentComponent />
       <Button label="Click me" /> 
-      <Button label="Submit"  /> 
+      <Button label="Submit"  />  */}
+      <GreetingMessage />
     </div>
   );
 }

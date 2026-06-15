@@ -92,3 +92,20 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 // one one way direct pass the data 
 // parent to child   by using props
 // child to parent by callback 
+
+
+
+1. JSX
+2. State
+3. Props
+4. Routing
+5. component life cycle method
+6. class bassed component VS function based component
+7. functional component 
+8. Hooks
+9. styled guide for react component 
+10. Data Fetching from server
+
+
+- easy build complex or scable application 
+- 1.state management -> 

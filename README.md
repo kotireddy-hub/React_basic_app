@@ -68,3 +68,27 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+##Notes
+// two based 
+//1. class based component
+//2. function based component
+
+//class based component
+// class Fotter extends React.Component{
+//   render(){
+//     return <h1>Fotter</h1>
+//   }
+// }
+
+// function based component
+// function Header(){
+//   return <h1>Header</h1>
+// }
+
+
+//unidirectional data flow
+// one one way direct pass the data 
+// parent to child   by using props
+// child to parent by callback 

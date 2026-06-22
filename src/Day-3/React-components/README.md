@@ -107,7 +107,7 @@ class - setState -update  , this.state - store
    4. componentDidMount()
       - after the component is rendered.
       - you can aslo use this method to calll extrenal data from the API.
-
+      
 
 2. Updating
    - When a component is bening re-render due to changes in props or state.
@@ -121,6 +121,7 @@ class - setState -update  , this.state - store
    - when a component is removed from the DOM.
    ## Method
    1. componentWillUnMount()
--  https://www.freecodecamp.org/news/react-component-lifecycle-methods/
-- https://medium.com/@omershahzad/react-life-cycle-3f4f0196533 
+
+## Links
+- https://www.freecodecamp.org/news/react-component-lifecycle-methods/
 - https://medium.com/@nishranasar/react-lifecycle-methods-436aa3a86194

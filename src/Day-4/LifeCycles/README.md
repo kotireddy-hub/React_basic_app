@@ -72,6 +72,7 @@
    - when a component is removed from the DOM.
    ## Method
    1. componentWillUnMount()
+     - If there are any cleanup actions  like canceling API call or clearing any cache in storage.
 
 ## Links
 - https://www.freecodecamp.org/news/react-component-lifecycle-methods/

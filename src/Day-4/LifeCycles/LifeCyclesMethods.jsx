@@ -65,6 +65,15 @@ class LifeCyclesMethods extends React.Component {
     
     }
 
+    componentWillUnmount(){
+        console.log("This will unmount");
+        this.setState({
+            name:'',
+            age: 0,
+            data: []
+        })
+    }
+
 
     render() {
         console.log("Render method is called");

@@ -23,7 +23,7 @@ setState (
     }
 )
 
-this.state.name = "test"
+this.state.name = "test"  // this will not re-render a component:
 ```
 
 ## Props

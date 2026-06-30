@@ -9,6 +9,7 @@ import Welcome from './Day-3/React-components/ClassBasedComponent/Welcome';
 // import ParentComponent from './ParentComponent';
 // import GreetingMessage from '../src/Jsx/GreentingMessage';
 // import ReuseableButton from './Day-3/React-components/ReuseableButton';
+import ConditionallyRenderingComponent from './Day-7/ConditionallRenderingComponent';
 
 /*
 // Maintainabilty and Reusability of the code
@@ -51,10 +52,11 @@ function App() {
       <footer>
         <p styles={{ backgroundColor: 'yellow', height: '50px' }}> This is a sample footer for the React App</p>
       </footer> */}
-      <Welcome />
-        <Header />
+      {/* <Welcome /> */}
+        {/* <Header /> */}
         <Content />
-        <Footer />
+        <ConditionallyRenderingComponent  isLoggedIn={true} />
+        {/* <Footer /> */}
     </div>
   );
 }

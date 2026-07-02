@@ -10,6 +10,7 @@ import Welcome from './Day-3/React-components/ClassBasedComponent/Welcome';
 // import GreetingMessage from '../src/Jsx/GreentingMessage';
 // import ReuseableButton from './Day-3/React-components/ReuseableButton';
 import ConditionallyRenderingComponent from './Day-7/ConditionallRenderingComponent';
+import AppRouter from './Day-8/Routing/AppRouter';
 
 /*
 // Maintainabilty and Reusability of the code
@@ -54,9 +55,10 @@ function App() {
       </footer> */}
       {/* <Welcome /> */}
         {/* <Header /> */}
-        <Content />
-        <ConditionallyRenderingComponent  isLoggedIn={true} />
+        {/* <Content />
+        <ConditionallyRenderingComponent  isLoggedIn={true} /> */}
         {/* <Footer /> */}
+        <AppRouter />
     </div>
   );
 }
